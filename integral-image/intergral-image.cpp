@@ -58,7 +58,12 @@ public:
 		return d + a - (b + c);
 	}
 
-	~IntergralImage() {}
+	~IntergralImage()
+	{
+		for (int i = 0; i < m_x; i++)
+			free(m_ii[i]);
+		free(m_ii);
+	}
 };
 
 void print_arr2(int **arr, int row, int col)
