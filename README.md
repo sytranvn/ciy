@@ -1,4 +1,4 @@
-# WRITE IT YOUSELF
+# CODE IT YOUSELF
 Not to reinvent the wheel but to understand how it works.
 
 ## TODO
