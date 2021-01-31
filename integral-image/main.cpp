@@ -32,5 +32,7 @@ int main()
 		 row - 1, col - 1,
 		 ii->sum({row - 1, col - 1}, {row - 1, col - 1}));
 
+	delete ii;
+
 	return 0;
 }
